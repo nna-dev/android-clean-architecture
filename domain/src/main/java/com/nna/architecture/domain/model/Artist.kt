@@ -8,6 +8,5 @@ open class Artist(
     val thumbnail: String,
     val spotlight: Boolean,
     val follow: Int = 0,
-    val playlistId: String
 ) {
 }
