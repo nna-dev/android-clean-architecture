@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="@dimen/common_margin"
+        app:backgroundTint="@color/teal_700"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
