@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_personal_music"
+        android:enabled="true"
+        android:icon="@drawable/ic_outline_music_video_24"
+        android:title="@string/nav_menu_personal_music" />
+
+    <item
+        android:id="@+id/menu_explore"
+        android:enabled="true"
+        android:icon="@drawable/ic_outline_play_circle_24"
+        android:title="@string/nav_menu_explorer" />
+
+    <item
+        android:id="@+id/menu_chart"
+        android:enabled="true"
+        android:icon="@drawable/ic_chart_24"
+        android:title="@string/nav_menu_chart" />
+
+    <item
+        android:id="@+id/menu_radio"
+        android:enabled="true"
+        android:icon="@drawable/ic_radio_24"
+        android:title="@string/nav_menu_radio" />
+
+    <item
+        android:id="@+id/menu_follow"
+        android:enabled="true"
+        android:icon="@drawable/ic_bookmark_24"
+        android:title="@string/nav_menu_follow" />
+</menu>

@@ -33,7 +33,6 @@ open class BaseActivity: AppCompatActivity() {
             v.updateLayoutParams<MarginLayoutParams> {
                 leftMargin = insets.left
                 rightMargin = insets.right
-                topMargin = insets.top
                 bottomMargin = insets.bottom
             }
             // not passed down to descendant views

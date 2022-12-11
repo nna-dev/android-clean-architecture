@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_menu_personal_music">Personal</string>
+    <string name="nav_menu_explorer">Explorer</string>
+    <string name="nav_menu_chart">Chart</string>
+    <string name="nav_menu_radio">Radio</string>
+    <string name="nav_menu_follow">Follow</string>
+</resources>
