@@ -2,6 +2,9 @@
 <resources>
     <dimen name="common_margin">16dp</dimen>
 
+    <!-- Appbar -->
+    <dimen name="toolbar_height">?attr/actionBarSize</dimen>
+
     <!-- Bottom navigation bar -->
     <dimen name="bottom_nav_height">56dp</dimen>
 </resources>
