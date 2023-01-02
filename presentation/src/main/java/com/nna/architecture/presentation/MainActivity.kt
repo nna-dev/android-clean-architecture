@@ -1,12 +1,16 @@
 package com.nna.architecture.presentation
 
 import android.os.Bundle
+import android.util.Log
+import android.view.Menu
 import android.view.MenuItem
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.google.android.material.navigation.NavigationBarView
+import com.lapism.search.widget.NavigationIconCompat
 import com.nna.architecture.presentation.databinding.ActivityMainBinding
 import com.nna.architecture.presentation.explorer.ExplorerFragment
+import kotlin.math.abs
 
 class MainActivity : BaseActivity(), NavigationBarView.OnItemSelectedListener {
     private lateinit var binding: ActivityMainBinding
@@ -16,7 +20,7 @@ class MainActivity : BaseActivity(), NavigationBarView.OnItemSelectedListener {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initInsets(binding.root)
-
+        setSupportActionBar(binding.toolbar)
         initView()
     }
 
@@ -26,6 +30,22 @@ class MainActivity : BaseActivity(), NavigationBarView.OnItemSelectedListener {
             selectedItemId = R.id.menu_explore
         }
 
+//        binding.materialSearchBar.apply {
+//            navigationIconCompat = NavigationIconCompat.SEARCH
+//            setHint(getString(R.string.toolbar_search_hint))
+//            setOnClickListener {
+//                binding.materialSearchBar.requestFocus()
+//            }
+//            setNavigationOnClickListener {
+//                binding.materialSearchBar.clearFocus()
+//            }
+//        }
+
+        binding.appbar.apply {
+            addOnOffsetChangedListener { appBarLayout, verticalOffset ->
+                alpha = 1 - abs(verticalOffset).toFloat()/appBarLayout.height
+            }
+        }
     }
 
     private fun showFragment(fragment: Fragment, tag: String? = null) {
@@ -45,4 +65,11 @@ class MainActivity : BaseActivity(), NavigationBarView.OnItemSelectedListener {
         }
         return true
     }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+//        menuInflater.inflate(R.menu.explorer_menu, menu)
+        return false
+    }
+
+
 }

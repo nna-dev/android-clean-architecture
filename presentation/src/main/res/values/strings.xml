@@ -6,6 +6,8 @@
     <string name="nav_menu_radio">Radio</string>
     <string name="nav_menu_follow">Follow</string>
 
+    <!-- Appbar -->
+    <string name="toolbar_search_hint">Search song, artist</string>
     <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,
         when an unknown printer took a galley of type and scrambled it to make a type specimen book.

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_explore_account"
+        android:title="@string/nav_menu_explorer"
+        android:icon="@drawable/ic_outline_music_video_24"
+        app:showAsAction="always"/>
+</menu>

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="common_margin">16dp</dimen>
+    <dimen name="common_padding_2">2dp</dimen>
+    <dimen name="common_padding_4">4dp</dimen>
+    <dimen name="common_padding_8">8dp</dimen>
+    <dimen name="common_padding_16">16dp</dimen>
+    <dimen name="common_margin_8">8dp</dimen>
+    <dimen name="common_margin_16">16dp</dimen>
+    <dimen name="common_margin_32">16dp</dimen>
 
     <!-- Appbar -->
-    <dimen name="toolbar_height">?attr/actionBarSize</dimen>
-
+    <dimen name="app_bar_voice_btn_size">24dp</dimen>
+    <dimen name="app_bar_account_btn_size">32dp</dimen>
     <!-- Bottom navigation bar -->
     <dimen name="bottom_nav_height">56dp</dimen>
 </resources>

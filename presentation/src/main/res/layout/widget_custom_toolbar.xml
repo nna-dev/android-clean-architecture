@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.appcompat.widget.Toolbar">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/account_img"
+        android:layout_width="@dimen/app_bar_account_btn_size"
+        android:layout_height="@dimen/app_bar_account_btn_size"
+        android:layout_marginRight="@dimen/common_margin_8"
+        android:src="@drawable/ic_outline_account_circle_24"
+        app:tint="@color/purple_300" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        app:cardCornerRadius="50dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/explorer_toolbar_search_bg"
+            android:paddingVertical="8dp"
+            android:paddingStart="@dimen/common_padding_16"
+            android:paddingEnd="@dimen/common_padding_8">
+
+            <ImageView
+                android:id="@+id/search_icon"
+                android:layout_width="@dimen/app_bar_voice_btn_size"
+                android:layout_height="@dimen/app_bar_voice_btn_size"
+                android:layout_marginEnd="@dimen/common_margin_8"
+                android:src="@drawable/search_ic_outline_search_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/toolbar_text_color" />
+
+            <EditText
+                android:id="@+id/et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/toolbar_search_hint"
+                android:lines="1"
+                android:textColor="@color/toolbar_text_color"
+                android:textCursorDrawable="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/voice_icon"
+                app:layout_constraintStart_toEndOf="@id/search_icon"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/voice_icon"
+                android:layout_width="@dimen/app_bar_voice_btn_size"
+                android:layout_height="@dimen/app_bar_voice_btn_size"
+                android:background="@color/blue"
+                android:src="@drawable/ic_keyboard_voice_24"
+                app:contentPadding="@dimen/common_padding_2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearance="@style/circle"
+                app:tint="@color/white" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</merge>
