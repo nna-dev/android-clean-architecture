@@ -4,13 +4,23 @@
     <dimen name="common_padding_4">4dp</dimen>
     <dimen name="common_padding_8">8dp</dimen>
     <dimen name="common_padding_16">16dp</dimen>
+    <dimen name="common_margin_2">2dp</dimen>
     <dimen name="common_margin_8">8dp</dimen>
     <dimen name="common_margin_16">16dp</dimen>
     <dimen name="common_margin_32">16dp</dimen>
 
+    <dimen name="common_radius_medium">12dp</dimen>
+
     <!-- Appbar -->
-    <dimen name="app_bar_voice_btn_size">24dp</dimen>
-    <dimen name="app_bar_account_btn_size">32dp</dimen>
+    <dimen name="app_bar_search_box_size">28dp</dimen>
+    <dimen name="app_bar_voice_btn_size">22dp</dimen>
+    <dimen name="app_bar_search_btn_size">16dp</dimen>
+    <dimen name="app_bar_account_btn_size">28dp</dimen>
+    <dimen name="app_bar_search_text_size">12sp</dimen>
+
     <!-- Bottom navigation bar -->
     <dimen name="bottom_nav_height">56dp</dimen>
+
+    <!-- Explorer -->
+    <dimen name="explorer_carousel_h">186dp</dimen>
 </resources>

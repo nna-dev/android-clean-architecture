@@ -4,6 +4,7 @@
     <item
         android:id="@+id/menu_explore_account"
         android:title="@string/nav_menu_explorer"
-        android:icon="@drawable/ic_outline_music_video_24"
-        app:showAsAction="always"/>
+        android:icon="@drawable/ic_settings_24"
+        app:showAsAction="always"
+        app:iconTint="@color/toolbar_text_color"/>
 </menu>

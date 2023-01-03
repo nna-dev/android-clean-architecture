@@ -16,22 +16,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        app:cardCornerRadius="50dp">
+        android:elevation="0dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="0dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/explorer_toolbar_search_bg"
-            android:paddingVertical="8dp"
-            android:paddingStart="@dimen/common_padding_16"
-            android:paddingEnd="@dimen/common_padding_8">
+            android:layout_height="@dimen/app_bar_search_box_size"
+            android:background="@color/explorer_toolbar_search_bg">
 
             <ImageView
                 android:id="@+id/search_icon"
-                android:layout_width="@dimen/app_bar_voice_btn_size"
-                android:layout_height="@dimen/app_bar_voice_btn_size"
-                android:layout_marginEnd="@dimen/common_margin_8"
-                android:src="@drawable/search_ic_outline_search_24"
+                android:layout_width="@dimen/app_bar_search_btn_size"
+                android:layout_height="@dimen/app_bar_search_btn_size"
+                android:layout_marginStart="@dimen/common_margin_8"
+                android:src="@drawable/ic_search_24"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -41,11 +40,14 @@
                 android:id="@+id/et"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/common_margin_8"
+                android:layout_marginEnd="@dimen/common_margin_8"
                 android:background="@android:color/transparent"
                 android:hint="@string/toolbar_search_hint"
                 android:lines="1"
                 android:textColor="@color/toolbar_text_color"
                 android:textCursorDrawable="@color/black"
+                android:textSize="@dimen/app_bar_search_text_size"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/voice_icon"
                 app:layout_constraintStart_toEndOf="@id/search_icon"
@@ -56,6 +58,7 @@
                 android:id="@+id/voice_icon"
                 android:layout_width="@dimen/app_bar_voice_btn_size"
                 android:layout_height="@dimen/app_bar_voice_btn_size"
+                android:layout_marginEnd="@dimen/common_margin_2"
                 android:background="@color/blue"
                 android:src="@drawable/ic_keyboard_voice_24"
                 app:contentPadding="@dimen/common_padding_2"

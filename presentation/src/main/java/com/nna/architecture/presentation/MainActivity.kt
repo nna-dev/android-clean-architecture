@@ -1,13 +1,10 @@
 package com.nna.architecture.presentation
 
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.google.android.material.navigation.NavigationBarView
-import com.lapism.search.widget.NavigationIconCompat
 import com.nna.architecture.presentation.databinding.ActivityMainBinding
 import com.nna.architecture.presentation.explorer.ExplorerFragment
 import kotlin.math.abs
@@ -29,17 +26,6 @@ class MainActivity : BaseActivity(), NavigationBarView.OnItemSelectedListener {
             setOnItemSelectedListener(this@MainActivity)
             selectedItemId = R.id.menu_explore
         }
-
-//        binding.materialSearchBar.apply {
-//            navigationIconCompat = NavigationIconCompat.SEARCH
-//            setHint(getString(R.string.toolbar_search_hint))
-//            setOnClickListener {
-//                binding.materialSearchBar.requestFocus()
-//            }
-//            setNavigationOnClickListener {
-//                binding.materialSearchBar.clearFocus()
-//            }
-//        }
 
         binding.appbar.apply {
             addOnOffsetChangedListener { appBarLayout, verticalOffset ->

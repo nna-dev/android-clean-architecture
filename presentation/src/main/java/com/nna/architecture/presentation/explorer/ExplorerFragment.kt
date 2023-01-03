@@ -1,11 +1,10 @@
 package com.nna.architecture.presentation.explorer
 
 import android.os.Bundle
+import android.view.*
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+import com.nna.architecture.presentation.R
 import com.nna.architecture.presentation.databinding.FragmentExplorerBinding
 
 class ExplorerFragment : Fragment() {
@@ -21,10 +20,19 @@ class ExplorerFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentExplorerBinding.inflate(inflater, container, false)
+        setHasOptionsMenu(true)
+        binding.carousel.apply {
+            adapter = CarouselAdapter()
+        }
+
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.explorer_menu, menu)
     }
 }
