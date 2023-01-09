@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="common_padding_2">2dp</dimen>
-    <dimen name="common_padding_4">4dp</dimen>
-    <dimen name="common_padding_8">8dp</dimen>
-    <dimen name="common_padding_16">16dp</dimen>
-    <dimen name="common_margin_2">2dp</dimen>
-    <dimen name="common_margin_8">8dp</dimen>
-    <dimen name="common_margin_16">16dp</dimen>
-    <dimen name="common_margin_32">16dp</dimen>
+    <dimen name="common_spacing_micro">2dp</dimen>
+    <dimen name="common_spacing_small">4dp</dimen>
+    <dimen name="common_spacing">8dp</dimen>
+    <dimen name="common_spacing_large">16dp</dimen>
 
     <dimen name="common_radius_medium">12dp</dimen>
 
@@ -23,4 +19,5 @@
 
     <!-- Explorer -->
     <dimen name="explorer_carousel_h">186dp</dimen>
+    <dimen name="explorer_categories_icon_size">38dp</dimen>
 </resources>
