@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="104dp" android:width="105dp" android:viewportWidth="105" android:viewportHeight="104">
-    <path android:fillColor="?attr/iconVipPurchaseFailBg" android:pathData="M52.5,52m-52,0a52,52 0,1 1,104 0a52,52 0,1 1,-104 0" android:fillAlpha="0.2"/>
-    <path android:fillColor="#ff0a0a" android:pathData="M57.948,22.748C56.538,20.377 54.656,19 52.54,19c-2.116,0 -3.998,1.377 -5.409,3.748L23.69,63.592c-1.41,2.448 -1.567,4.742 -0.47,6.578 1.098,1.836 3.293,2.83 6.115,2.83h46.33c2.9,0 5.017,-0.994 6.115,-2.83 1.097,-1.836 0.94,-4.13 -0.47,-6.578L57.947,22.748z"/>
-    <path android:fillColor="#fff" android:pathData="M52.916,57.438c-1.99,0 -3.53,1.634 -3.53,3.54 0,1.998 1.63,3.541 3.53,3.541 1.991,0 3.53,-1.634 3.53,-3.54 0,-1.907 -1.539,-3.541 -3.53,-3.541z"/>
-    <path android:fillColor="#fff" android:pathData="M52.998,54.835c1.378,0 2.657,-1.138 2.854,-2.465l1.476,-16.179c0.099,-1.39 -1.364,-3.54 -3.53,-3.54h-1.764c-2.165,0 -3.628,2.213 -3.53,3.54l1.738,16.179c0.098,1.327 1.378,2.465 2.756,2.465z"/>
-</vector>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="32dp" android:width="32dp" android:viewportWidth="32" android:viewportHeight="32">
-    <path android:fillColor="?attr/textFilterStateSelected" android:pathData="M16,0L16,0A16,16 0,0 1,32 16L32,16A16,16 0,0 1,16 32L16,32A16,16 0,0 1,0 16L0,16A16,16 0,0 1,16 0z" android:fillAlpha="0.1"/>
-    <path android:fillColor="?attr/tcPrimary" android:pathData="M21.8536,10.8536C22.0488,10.6583 22.0488,10.3417 21.8536,10.1464C21.6583,9.9512 21.3417,9.9512 21.1464,10.1464L16,15.2929L10.8536,10.1464C10.6583,9.9512 10.3417,9.9512 10.1464,10.1464C9.9512,10.3417 9.9512,10.6583 10.1464,10.8536L15.2929,16L10.1464,21.1464C9.9512,21.3417 9.9512,21.6583 10.1464,21.8536C10.3417,22.0488 10.6583,22.0488 10.8536,21.8536L16,16.7071L21.1464,21.8536C21.3417,22.0488 21.6583,22.0488 21.8536,21.8536C22.0488,21.6583 22.0488,21.3417 21.8536,21.1464L16.7071,16L21.8536,10.8536Z" android:fillType="evenOdd"/>
-</vector>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?attr/colorRipple">
-    <item android:id="@+id/background">
-        <shape android:shape="rectangle">
-            <corners android:radius="@dimen/liveplayer_corner_radius"/>
-            <solid android:color="?attr/colorAccent"/>
-        </shape>
-    </item>
-</ripple>

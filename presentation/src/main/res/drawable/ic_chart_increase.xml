@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="5dp" android:width="5dp" android:viewportWidth="5" android:viewportHeight="5">
-    <path android:fillColor="?attr/tcChartIncrease" android:pathData="M0.153,3.12c-0.326,0.323 -0.097,0.88 0.362,0.88h3.97c0.459,0 0.688,-0.557 0.362,-0.88L2.862,1.15c-0.2,-0.2 -0.523,-0.2 -0.724,0L0.153,3.12z" android:fillType="evenOdd"/>
-</vector>

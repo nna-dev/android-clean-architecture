@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<animated-selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:state_selected="true" android:id="@+id/selected" android:drawable="@drawable/ic_bookmarked_player"/>
-    <item android:id="@+id/normal" android:drawable="@drawable/ic_bookmark_player"/>
-    <transition android:drawable="@drawable/res_0x7f080000_avd_action_bookmark__0" android:toId="@+id/selected" android:fromId="@+id/normal"/>
-    <transition android:drawable="@drawable/res_0x7f080002_avd_action_bookmark__2" android:toId="@+id/normal" android:fromId="@+id/selected"/>
-</animated-selector>

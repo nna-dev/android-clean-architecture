@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
-    <corners android:radius="24dp"/>
-    <padding android:left="@dimen/zad__iab_padding" android:top="@dimen/zad__iab_padding" android:right="@dimen/zad__iab_padding" android:bottom="@dimen/zad__iab_padding"/>
-    <solid android:color="@color/zad__iab_msg_ad_btn_disable"/>
-</shape>

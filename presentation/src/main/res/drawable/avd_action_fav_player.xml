@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<animated-selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:state_enabled="false" android:id="@+id/disable" android:drawable="@drawable/ic_action_fav_disable_player"/>
-    <item android:state_selected="true" android:id="@+id/selected" android:drawable="@drawable/ic_action_fav_full_player"/>
-    <item android:id="@+id/normal" android:drawable="@drawable/ic_action_fav_player"/>
-    <transition android:drawable="@drawable/res_0x7f08000e_avd_action_fav_player__0" android:toId="@+id/selected" android:fromId="@+id/normal"/>
-    <transition android:drawable="@drawable/res_0x7f080010_avd_action_fav_player__2" android:toId="@+id/normal" android:fromId="@+id/selected"/>
-</animated-selector>

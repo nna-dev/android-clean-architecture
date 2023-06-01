@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <item>
-        <shape android:shape="rectangle">
-            <gradient android:startColor="@color/bgHomeOnboarding2" android:endColor="@color/bgHomeOnboarding1" android:angle="135" android:type="linear"/>
-            <corners android:radius="@dimen/image_rounded_radius"/>
-        </shape>
-    </item>
-</selector>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:name="vector" android:height="20dp" android:width="20dp" android:viewportWidth="20" android:viewportHeight="20">
-    <path android:name="path" android:fillColor="#00000000" android:pathData="M 7 11.5 L 10 14.5 L 13 11.5 M 10 5.504 L 10 13.5" android:strokeColor="?attr/tcSecondary" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="0.6" android:fillAlpha="0.6" android:fillType="evenOdd"/>
-    <path android:name="path_1" android:fillColor="#00000000" android:pathData="M 10 10 M 1.5 10 C 1.5 8.205 2.068 6.456 3.123 5.004 C 4.178 3.552 5.666 2.471 7.373 1.916 C 9.08 1.361 10.92 1.361 12.627 1.916 C 14.334 2.471 15.822 3.552 16.877 5.004 C 17.932 6.456 18.5 8.205 18.5 10 C 18.5 11.795 17.932 13.544 16.877 14.996 C 15.822 16.448 14.334 17.529 12.627 18.084 C 10.92 18.639 9.08 18.639 7.373 18.084 C 5.666 17.529 4.178 16.448 3.123 14.996 C 2.068 13.544 1.5 11.795 1.5 10" android:strokeColor="?attr/colorDownloadingCircle" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="0.2" android:fillAlpha="0.2" android:fillType="evenOdd"/>
-    <group android:name="group" android:pivotX="10" android:pivotY="10">
-        <path android:name="path_2" android:fillColor="#00000000" android:pathData="M 14.442 17.249 C 16.876 15.754 18.5 13.066 18.5 10 C 18.5 5.306 14.694 1.5 10 1.5" android:strokeColor="#8a1bff" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd"/>
-    </group>
-</vector>

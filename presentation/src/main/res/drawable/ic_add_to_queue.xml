@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="20dp" android:width="20dp" android:viewportWidth="20" android:viewportHeight="20">
-    <path android:fillColor="#00000000" android:pathData="M7.73,5.122L5.347,3.736c-1.262,-0.733 -1.893,-1.1 -2.41,-1.047 -0.453,0.047 -0.863,0.283 -1.13,0.65C1.5,3.76 1.5,4.49 1.5,5.95v8.097c0,1.46 0,2.19 0.307,2.612 0.267,0.367 0.678,0.603 1.13,0.65 0.518,0.053 1.15,-0.315 2.412,-1.05l2.33,-1.359" android:strokeColor="?attr/tcEpisodeReleasedDate" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round"/>
-    <path android:fillColor="#00000000" android:pathData="M14,10m-4.5,0a4.5,4.5 0,1 1,9 0a4.5,4.5 0,1 1,-9 0" android:strokeColor="?attr/tcEpisodeReleasedDate" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round"/>
-    <path android:fillColor="?attr/tcEpisodeReleasedDate" android:pathData="M13.7,8c-0.11,0 -0.2,0.09 -0.2,0.2v1.3h-1.3c-0.11,0 -0.2,0.09 -0.2,0.2v0.6c0,0.11 0.09,0.2 0.2,0.2h1.3v1.3c0,0.11 0.09,0.2 0.2,0.2h0.6c0.11,0 0.2,-0.09 0.2,-0.2v-1.3h1.3c0.11,0 0.2,-0.09 0.2,-0.2v-0.6c0,-0.11 -0.09,-0.2 -0.2,-0.2h-1.3V8.2c0,-0.11 -0.09,-0.2 -0.2,-0.2h-0.6z" android:fillType="evenOdd"/>
-</vector>

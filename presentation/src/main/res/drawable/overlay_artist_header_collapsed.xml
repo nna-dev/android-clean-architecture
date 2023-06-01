@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
-    <corners android:bottomLeftRadius="@dimen/image_rounded_radius_large" android:bottomRightRadius="@dimen/image_rounded_radius_large"/>
-    <gradient android:startColor="@color/artistCoverCollapsedOverlayTop" android:endColor="@color/artistCoverCollapsedOverlayBottom" android:angle="270"/>
-</shape>

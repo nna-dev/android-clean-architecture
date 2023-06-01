@@ -1,7 +1,9 @@
 package com.nna.architecture.presentation.explorer
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.nna.architecture.presentation.R
@@ -9,9 +11,10 @@ import com.nna.architecture.presentation.databinding.ItemCarouselBinding
 
 class CarouselAdapter : RecyclerView.Adapter<CarouselAdapter.CarouselViewHolder>() {
     private val carouselList = mutableListOf<CarouselVO>()
+    private lateinit var binding: ItemCarouselBinding
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CarouselViewHolder {
-        val binding = ItemCarouselBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        binding = ItemCarouselBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return CarouselViewHolder(binding)
     }
 
