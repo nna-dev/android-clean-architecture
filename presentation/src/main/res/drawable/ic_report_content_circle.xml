@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="40dp" android:width="40dp" android:viewportWidth="40" android:viewportHeight="40">
+    <path android:fillColor="?attr/shareBSIconBg" android:pathData="M20,20m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+    <path android:fillColor="@color/colorDrawableTint" android:pathData="M21.299,11.45C20.722,10.45 19.278,10.45 18.701,11.45L10.474,25.7C9.896,26.7 10.618,27.95 11.773,27.95H28.227C29.382,27.95 30.104,26.7 29.526,25.7L21.299,11.45ZM19.567,11.95C19.759,11.617 20.241,11.617 20.433,11.95L28.66,26.2C28.853,26.533 28.612,26.95 28.227,26.95H11.773C11.388,26.95 11.147,26.533 11.34,26.2L19.567,11.95ZM20,16.001C20.276,16.001 20.5,16.225 20.5,16.501V17.5C20.5,17.776 20.276,18 20,18C19.724,18 19.5,17.776 19.5,17.5V16.501C19.5,16.225 19.724,16.001 20,16.001ZM20,20C20.276,20 20.5,20.224 20.5,20.5V24.5C20.5,24.776 20.276,25 20,25C19.724,25 19.5,24.776 19.5,24.5V20.5C19.5,20.224 19.724,20 20,20Z" android:fillType="evenOdd"/>
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#05f0a2" android:endColor="#04dcaa" android:angle="360" android:type="linear"/>
+            <corners android:radius="@dimen/image_rounded_radius"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="90dp" android:width="90dp" android:drawable="@drawable/ic_podcast"/>
+</layer-list>

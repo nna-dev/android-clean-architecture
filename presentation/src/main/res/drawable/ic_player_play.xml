@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="64dp" android:width="64dp" android:viewportWidth="64" android:viewportHeight="64">
+    <group android:name="all">
+        <path android:name="stroke" android:pathData="M 32 4 C 24.577 4 17.45 6.952 12.201 12.201 C 6.952 17.45 4 24.577 4 32 C 4 39.423 6.952 46.55 12.201 51.799 C 17.45 57.048 24.577 60 32 60 C 39.423 60 46.55 57.048 51.799 51.799 C 57.048 46.55 60 39.423 60 32 C 60 24.577 57.048 17.45 51.799 12.201 C 46.55 6.952 39.423 4 32 4 Z" android:strokeColor="#ffffff" android:strokeWidth="2" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+        <group android:name="play" android:pivotX="32" android:pivotY="32">
+            <path android:name="path" android:fillColor="#ffffff" android:pathData="M 25.5 23.266 L 25.5 40.734 C 25.5 41.728 26.306 42.534 27.3 42.534 C 27.64 42.534 27.973 42.438 28.261 42.256 L 42.091 33.523 C 42.931 32.993 43.181 31.88 42.651 31.04 C 42.508 30.814 42.317 30.622 42.091 30.48 L 28.261 21.744 C 27.421 21.214 26.309 21.464 25.778 22.304 C 25.596 22.592 25.5 22.926 25.5 23.266 Z" android:strokeWidth="1"/>
+        </group>
+    </group>
+</vector>

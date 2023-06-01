@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/li_song_thumb" android:width="@dimen/li_song_thumb"/>
+            <solid android:color="#59000000"/>
+            <corners android:radius="@dimen/image_rounded_radius"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/ic_block" android:left="@dimen/spacing_pretty_small" android:top="@dimen/spacing_pretty_small" android:right="@dimen/spacing_pretty_small" android:bottom="@dimen/spacing_pretty_small"/>
+</layer-list>

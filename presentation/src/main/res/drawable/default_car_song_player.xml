@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="340dp" android:width="340dp"/>
+            <solid android:color="?attr/defaultThumb"/>
+            <corners android:radius="@dimen/car_player_thumb_radius"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="120dp" android:width="120dp" android:drawable="@drawable/ic_default_song"/>
+</layer-list>

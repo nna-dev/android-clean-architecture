@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="82dp" android:width="82dp" android:viewportWidth="82" android:viewportHeight="82">
+    <path android:fillColor="#00000000" android:pathData="M41.5,41m-40.5,0a40.5,40.5 0,1 1,81 0a40.5,40.5 0,1 1,-81 0" android:strokeColor="?attr/bluetoothPermissionOutside" android:strokeWidth="1"/>
+    <path android:fillColor="#00000000" android:pathData="M26.5,48c1.467,-0.978 12.022,-7.87 20.905,-13.615a0.5,0.5 0,0 0,0.032 -0.816l-10.383,-7.953a0.5,0.5 0,0 0,-0.804 0.397v29.974a0.5,0.5 0,0 0,0.804 0.397L47.44,48.43a0.5,0.5 0,0 0,-0.032 -0.816L26.5,34" android:strokeColor="?attr/bluetoothPermissionInside" android:strokeWidth="1" android:strokeLineCap="round"/>
+    <path android:fillColor="#00000000" android:pathData="M50.006,44.535a4.942,4.942 0,0 0,0 -6.929M53.92,47.303c3.44,-3.481 3.44,-9.124 0,-12.606" android:strokeColor="?attr/bluetoothPermissionInside" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+</vector>

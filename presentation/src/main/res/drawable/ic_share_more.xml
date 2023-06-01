@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="40dp" android:width="40dp" android:viewportWidth="40" android:viewportHeight="40">
+    <path android:fillColor="?attr/shareBSIconBg" android:pathData="M20,20m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+    <path android:fillColor="#141414" android:pathData="M11.667,22.222a1.667,1.667 0,1 0,0 -3.333,1.667 1.667,0 0,0 0,3.333zM21.111,20.555a1.667,1.667 0,1 1,-3.333 0,1.667 1.667,0 0,1 3.333,0zM28.889,20.555a1.667,1.667 0,1 1,-3.333 0,1.667 1.667,0 0,1 3.333,0z" android:fillType="evenOdd"/>
+</vector>

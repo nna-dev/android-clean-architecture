@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/ic_bookmark_player">
+    <target android:name="all" android:animation="@drawable/res_0x7f080003_avd_action_bookmark__3"/>
+</animated-vector>
